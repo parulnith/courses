@@ -1,0 +1,21 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2025-12-17T00:05:09+05:30",
+  "id": "course-2",
+  "duration": 0,
+  "title": "Visual Storytelling",
+  "summary": "Data Visualization basics.",
+  "source": "course-2.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "visualization"
+  ],
+  "tags": [],
+  "url": "course-2"
+}

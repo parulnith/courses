@@ -1,40 +1,102 @@
-
-<!doctype html>
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
-  <meta name="theme-color" content="#4F7DC9">
-  <meta charset="UTF-8">
-  <title></title>
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
-  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://storage.googleapis.com/claat-public/codelab-elements.css">
-  <style>
-    .success {
-      color: #1e8e3e;
-    }
-    .error {
-      color: red;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parul Pandey | Technical Tutorials</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #f15a24; /* H2O-style Orange */
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        h1 { color: var(--text-main); font-size: 2.5rem; margin-bottom: 10px; }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 25px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            border: 1px solid #e2e8f0;
+            padding: 24px;
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            flex-direction: column;
+            height: 200px; /* Uniform height */
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            border-color: var(--primary-color);
+        }
+        .badge {
+            background: #f1f5f9;
+            color: #64748b;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            align-self: flex-start;
+            margin-bottom: 15px;
+        }
+        h3 { margin: 10px 0; color: var(--text-main); }
+        p { color: #64748b; font-size: 0.95rem; line-height: 1.5; margin-bottom: 20px; }
+        .footer-link {
+            margin-top: auto;
+            color: var(--primary-color);
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
-  <google-codelab-analytics gaid="UA-49880327-14" ga4id=""></google-codelab-analytics>
-  <google-codelab codelab-gaid=""
-                  codelab-ga4id=""
-                  id=""
-                  title=""
-                  environment="web"
-                  feedback-link="">
-    
-  </google-codelab>
 
-  <script src="https://storage.googleapis.com/claat-public/native-shim.js"></script>
-  <script src="https://storage.googleapis.com/claat-public/custom-elements.min.js"></script>
-  <script src="https://storage.googleapis.com/claat-public/prettify.js"></script>
-  <script src="https://storage.googleapis.com/claat-public/codelab-elements.js"></script>
-  <script src="//support.google.com/inapp/api.js"></script>
+<header>
+    <h1>Technical Tutorials</h1>
+    <p>Interactive codelabs and hands-on workshops</p>
+</header>
+
+<div class="grid">
+    <a href="./course-1/" class="card">
+        <span class="badge">Python</span>
+        <h3>Python for Data Science 101</h3>
+        <p>Master the essentials of Pandas and NumPy for data manipulation.</p>
+        <span class="footer-link">Start Tutorial →</span>
+    </a>
+
+    <a href="./course-2/" class="card">
+        <span class="badge">Visualization</span>
+        <h3>Visual Storytelling</h3>
+        <p>Create impactful charts using Matplotlib and Seaborn.</p>
+        <span class="footer-link">Start Tutorial →</span>
+    </a>
+
+    <a href="./course-3/" class="card">
+        <span class="badge">ML</span>
+        <h3>ML Foundations</h3>
+        <p>An introduction to Scikit-Learn pipelines and model training.</p>
+        <span class="footer-link">Start Tutorial →</span>
+    </a>
+</div>
 
 </body>
 </html>

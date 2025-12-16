@@ -1,0 +1,21 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2025-12-17T00:05:29+05:30",
+  "id": "course-3",
+  "duration": 0,
+  "title": "ML Foundations",
+  "summary": "Intro to Scikit-Learn.",
+  "source": "course-3.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "ml"
+  ],
+  "tags": [],
+  "url": "course-3"
+}
