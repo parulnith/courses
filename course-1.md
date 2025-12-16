@@ -25,13 +25,16 @@ arr = np.array([1, 2, 3, 4, 5])
 
 # Perform vector operations
 print(arr * 2) 
+
+```
+
 Data Manipulation: Pandas
 Duration: 10:00
 
 Pandas introduces the DataFrame, a powerful tool for handling tabular data.
 
 Loading a Dataset
-Python
+``` Python
 
 import pandas as pd
 
@@ -46,8 +49,9 @@ print(df)
 
 ```
 
-Basic Visualization
-Duration: 8:00Before using advanced libraries, it's important to understand matplotlib.
+## Basic Visualization
+Duration: 8:00
+Before using advanced libraries, it's important to understand matplotlib.
 
 ```python
 
@@ -70,4 +74,4 @@ Created your first Pandas DataFrame.
 
 Visualized basic data points.
 
-## Next Step: Head over to Course 2: Visual Storytelling to learn how to make these charts look professional.
+Next Step: Head over to Course 2: Visual Storytelling to learn how to make these charts look professional.
