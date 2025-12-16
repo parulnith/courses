@@ -43,19 +43,23 @@ data = {
 }
 df = pd.DataFrame(data)
 print(df)
+
+```
+
 Basic Visualization
-Duration: 8:00
+Duration: 8:00Before using advanced libraries, it's important to understand matplotlib.
 
-Before using advanced libraries, it's important to understand matplotlib.
-
-Python
+```python
 
 import matplotlib.pyplot as plt
 
 plt.plot([1, 2, 3, 4], [10, 20, 25, 30])
 plt.title("Simple Growth Chart")
 plt.show()
-Summary and Quiz
+
+```
+
+## Summary and Quiz
 Duration: 3:00
 
 You've successfully:
@@ -66,4 +70,4 @@ Created your first Pandas DataFrame.
 
 Visualized basic data points.
 
-Next Step: Head over to Course 2: Visual Storytelling to learn how to make these charts look professional.
+## Next Step: Head over to Course 2: Visual Storytelling to learn how to make these charts look professional.
