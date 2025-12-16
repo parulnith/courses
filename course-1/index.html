@@ -29,7 +29,67 @@
                   feedback-link="">
     
       <google-codelab-step label="Introduction" duration="0">
-        <p>Welcome! In this module, we cover data manipulation basics.</p>
+        <p>Welcome! In this module, we cover data manipulation basics - tools every Data Scientist needs. We will focus on the &#34;Holy Trinity&#34; of Python Data Science:</p>
+<ol type="1">
+<li><strong>NumPy</strong> for numerical computing.</li>
+<li><strong>Pandas</strong> for data manipulation.</li>
+<li><strong>Matplotlib</strong> for basic visualization.</li>
+</ol>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="The Foundation: NumPy" duration="5">
+        <p>NumPy is the backbone of almost all data libraries in Python. It allows for fast operations on arrays.</p>
+<pre><code language="language-python" class="language-python">import numpy as np
+
+# Create a 1D array
+arr = np.array([1, 2, 3, 4, 5])
+
+# Perform vector operations
+print(arr * 2) 
+Data Manipulation: Pandas
+Duration: 10:00
+
+Pandas introduces the DataFrame, a powerful tool for handling tabular data.
+
+Loading a Dataset
+Python
+
+import pandas as pd
+
+# Creating a simple dataframe
+data = {
+    &#39;Name&#39;: [&#39;Alice&#39;, &#39;Bob&#39;, &#39;Charlie&#39;],
+    &#39;Age&#39;: [25, 30, 35],
+    &#39;City&#39;: [&#39;New York&#39;, &#39;London&#39;, &#39;Paris&#39;]
+}
+df = pd.DataFrame(data)
+print(df)
+Basic Visualization
+Duration: 8:00
+
+Before using advanced libraries, it&#39;s important to understand matplotlib.
+
+Python
+
+import matplotlib.pyplot as plt
+
+plt.plot([1, 2, 3, 4], [10, 20, 25, 30])
+plt.title(&#34;Simple Growth Chart&#34;)
+plt.show()
+Summary and Quiz
+Duration: 3:00
+
+You&#39;ve successfully:
+
+Learned how to use NumPy arrays.
+
+Created your first Pandas DataFrame.
+
+Visualized basic data points.
+
+Next Step: Head over to Course 2: Visual Storytelling to learn how to make these charts look professional.</code></pre>
 
 
       </google-codelab-step>
