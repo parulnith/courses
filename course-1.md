@@ -26,15 +26,16 @@ arr = np.array([1, 2, 3, 4, 5])
 # Perform vector operations
 print(arr * 2) 
 
-```
+```python
 
-Data Manipulation: Pandas
+## Data Manipulation: Pandas
 Duration: 10:00
 
 Pandas introduces the DataFrame, a powerful tool for handling tabular data.
 
 Loading a Dataset
-``` Python
+
+```python
 
 import pandas as pd
 
@@ -47,7 +48,7 @@ data = {
 df = pd.DataFrame(data)
 print(df)
 
-```
+```python
 
 ## Basic Visualization
 Duration: 8:00
@@ -61,9 +62,9 @@ plt.plot([1, 2, 3, 4], [10, 20, 25, 30])
 plt.title("Simple Growth Chart")
 plt.show()
 
-```
+```python
 
-## Interactive Notebook
+## Interactive nitebook
 Duration: 5:00
 
 You can interact with the live code below. Try changing the sliders or inputs to see the results update in real-time.
