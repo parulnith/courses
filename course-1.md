@@ -63,6 +63,21 @@ plt.show()
 
 ```
 
+## Interactive Notebook
+Duration: 5:00
+
+You can interact with the live code below. Try changing the sliders or inputs to see the results update in real-time.
+
+<iframe 
+    src="https://molab.marimo.io/notebooks/nb_TWVGCgZZK4L8zj5ziUBNVL?embed=true" 
+    width="100%" 
+    height="600px" 
+    frameborder="0" 
+    style="border: 1px solid #e2e8f0; border-radius: 8px;">
+</iframe>
+
+> Note: If the notebook doesn't load, ensure you have an active internet connection.
+
 ## Summary and Quiz
 Duration: 3:00
 
