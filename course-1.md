@@ -64,23 +64,19 @@ plt.show()
 
 ```
 
-## Interactive nitebook
-Duration: 5:00
+## Interactive Lab: Python 101
+Duration: 10:00
 
-You can interact with the live code below. Try changing the sliders or inputs to see the results update in real-time.
+To get hands-on experience, we have prepared an interactive Marimo notebook. This allows you to run code directly in your browser without installing anything.
 
-<iframe 
-    src="https://molab.marimo.io/notebooks/nb_TWVGCgZZK4L8zj5ziUBNVL?embed=true" 
-    width="100%" 
-    height="600px" 
-    frameborder="0" 
-    style="border: 1px solid #e2e8f0; border-radius: 8px;">
-</iframe>
+### 🚀 Action Required
+Positive
+: **Launch the Interactive Notebook**
+: Click the link below to open the lab in a new window. Once finished, return here to continue the tutorial.
+: [👉 Open Marimo Notebook](https://molab.marimo.io/notebooks/nb_TWVGCgZZK4L8zj5ziUBNVL)
 
-> Note: If the notebook doesn't load, ensure you have an active internet connection.
+## Next Steps
 
-## Summary and Quiz
-Duration: 3:00
 
 You've successfully:
 
